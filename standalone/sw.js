@@ -8,6 +8,8 @@ const cacheSourceList = [
   '/standalone/others.js',
   '/standalone/new.js',
   '/standalone/chunk.js',
+  '/standalone/chunk2.js',
+  '/standalone/chunk3.js',
 ].map(item => {
   return isDev ? item : `/sw-demo${item}`
 })
