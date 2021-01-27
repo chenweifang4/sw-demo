@@ -9,7 +9,7 @@ const cacheSourceList = [
   '/standalone/new.js',
   '/standalone/chunk.js',
 ].map(item => {
-  return isDev ? item : `/sw-learning${item}`
+  return isDev ? item : `/sw-demo${item}`
 })
 
 self.addEventListener('install', event => {

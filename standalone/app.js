@@ -1,6 +1,6 @@
 // app.js
 const isDev = location.hostname.includes('localhost')
-const registerScope = isDev ? '/standalone/' : '/sw-learning/standalone/'
+const registerScope = isDev ? '/standalone/' : '/sw-demo/standalone/'
 const unRegisterServiceWorker = location.search.includes('unRegisterServiceWorker=1')
 
 if ('serviceWorker' in navigator) {
