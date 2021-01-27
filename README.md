@@ -1,2 +1,3 @@
-# sw-demo
-sw-demo
+## SW-DEMO
+
+[standalone](./standalone)
